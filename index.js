@@ -17,6 +17,51 @@ type:'input',
 message: "Enter a short description of the project:",
 name: "description",
 },
+
+{
+type:'input',
+message: "Enter the instruction on how to install:",
+name: "installation",
+},
+
+{
+type:'input',
+message: "Enter the instructions on how to use:",
+name: "instruction",
+},
+
+{
+type:'input',
+message: "How to contribute?:",
+name: "contribution",
+},
+
+{
+type:'input',
+message: "Testing guidelines:",
+name: "testing",
+},
+
+{
+type:'list',
+message: "Which license is going to apply to this project?",
+name: "license",
+choices:
+[
+    'No',
+     'Apache', 
+    'GNU', 
+    'MIT', 
+    'BSD', 
+    'Boost',
+    'Eclipse',
+    'Mozilla',
+    'Unilicense',
+]
+},
+
+
+
 ];
 
 //Write README file function
