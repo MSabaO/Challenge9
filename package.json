@@ -1,14 +1,17 @@
 {
   "name": "bootcamp2023-challenge9",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an app that creates and writes a professional README file based on answers of defined questions prompted to users.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Maika Saba",
+  "license": "MIT",
   "dependencies": {
-    "inquirer": "^8.2.4"
-  }
+    "inquirer": "^8.2.4",
+    "validator": "13.11.0"
+  },
+  "devDependencies": {},
+  "keywords": []  
 }
