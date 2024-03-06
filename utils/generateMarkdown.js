@@ -6,32 +6,32 @@ function generateMarkdown(data) {
   ![Static Badge](https://img.shields.io/badge/License-${data.license/*adds license chosen by user, creates badge*/}-blue)
 
 
-##Description
+## Description
 ${data.description/*Adds description*/}
-##Table of Contents
+## Table of Contents
 -[How to instal](#installation)
--[How to use] (#instruction)
--[License] (#license)
--[Contribution] (#contribution)
--[Tests] (#testing)
+-[How to use](#instruction)
+-[License](#license)
+-[Contribution](#contribution)
+-[Tests](#testing)
 
-##How to install
+## How to install
 ${data.installation}
 
-##How to use
-${data.usage}
+## How to use
+${data.instruction}
 
-#License 
+## License 
 ![Static Badge](https://img.shields.io/badge/License-${data.license/*adds license chosen by user, creates badge*/}-blue)
 This application is covered under ${data.license}
 
-#Contributions
+## Contributions
 ${data.contribution}
 
-#Test
+## Test
 ${data.testing}
 
-#Author
+## Author
 Hi, I'm ${data.username}! The author of this application. You can see all my projects in my repository at https://github.com/${data.username}
 
 
