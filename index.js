@@ -59,6 +59,12 @@ choices:
     'Unilicense',
 ]
 },
+{
+type:'input',
+message: "Enter your GitHub username:",
+name: "username",
+},
+
 
 
 
