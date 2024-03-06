@@ -27,7 +27,7 @@ name: "installation",
 {
 type:'input',
 message: "Enter the instructions on how to use:",
-name: "instruction",
+name: "usage",
 },
 
 {
@@ -63,6 +63,11 @@ choices:
 type:'input',
 message: "Enter your GitHub username:",
 name: "username",
+},
+{
+type:'input',
+message: "Enter your email for future contact:",
+name: "email",
 },
 
 

@@ -19,7 +19,7 @@ ${data.description/*Adds description*/}
 ${data.installation}
 
 ## How to use
-${data.instruction}
+${data.usage}
 
 ## License 
 ![Static Badge](https://img.shields.io/badge/License-${data.license/*adds license chosen by user, creates badge*/}-blue)
@@ -34,6 +34,7 @@ ${data.testing}
 ## Author
 Hi, I'm ${data.username}! The author of this application. You can see all my projects in my repository at https://github.com/${data.username}
 
+My email: ${data.email}
 
 `;
 }
