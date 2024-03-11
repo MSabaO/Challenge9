@@ -11,9 +11,9 @@ ${data.description/*Adds description*/}
 ## Table of Contents
 -[How to instal](#installation)
 -[How to use](#instruction)
--[License](#license)
 -[Contribution](#contribution)
 -[Tests](#testing)
+-[License](#license)
 
 ## How to install
 ${data.installation}
@@ -21,11 +21,15 @@ ${data.installation}
 ## How to use
 ${data.usage}
 
-## License 
-![Static Badge](https://img.shields.io/badge/License-${data.license/*adds license chosen by user, creates badge*/}-blue)
-This application is covered under ${data.license}
 
 ## Contributions
+Contributions are welcome! If you'd like to contribute to the project, follow these steps:
+
+1.    Fork the repository.
+2.    Create a new branch for your feature or bug fix.
+3.    Make your changes and commit them.
+4.    Submit a pull request.
+
 ${data.contribution}
 
 ## Test
@@ -36,6 +40,10 @@ Hi, I'm ${data.username}! The author of this application. You can see all my pro
 
 My email: ${data.email}
 
+## License 
+![Static Badge](https://img.shields.io/badge/License-${data.license/*adds license chosen by user, creates badge*/}-blue)
+<br>
+This application is covered under ${data.license}
 `;
 }
 
